@@ -1,0 +1,56 @@
+.quantum-training{margin-top:70px;border-block:1px solid #25465b;background:radial-gradient(ellipse at 6% 45%,#07466c38,transparent 50%),linear-gradient(145deg,#06172a,#030e1b);scroll-margin-top:26px}
+.quantum-training .eyebrow{color:#79dfff}
+.quantum-training h2 em{color:#a6ecff}
+.quantum-replay{display:grid;grid-template-columns:.75fr 1.25fr;border:1px solid #38728b;border-radius:20px;overflow:hidden;background:linear-gradient(125deg,#0b263b,#071725);box-shadow:0 18px 70px #0003,inset 0 1px #a3deff15}
+.quantum-replay-art{position:relative;isolation:isolate;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between;min-height:452px;padding:33px;border-right:1px solid #2d5b77;background:radial-gradient(ellipse at 45% 40%,#0876a777,transparent 60%),linear-gradient(140deg,#092844,#031023)}
+.quantum-replay-art:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(#57cfff0b 1px,transparent 1px),linear-gradient(90deg,#57cfff0b 1px,transparent 1px);background-size:35px 35px;mask-image:linear-gradient(transparent,#000 25%,#000 70%,transparent);transform:skewY(-12deg) scale(1.2)}
+.quantum-replay-art-label{font-size:9px;letter-spacing:2.3px;color:#a1cfeb}
+.quantum-play-orbit{align-self:center;display:grid;place-items:center;width:176px;height:176px;border:1px solid #61ccff44;border-radius:50%;box-shadow:0 0 0 19px #269dd811,0 0 0 39px #269dd807;margin:28px 0 30px}
+.quantum-play-mark{display:grid;place-items:center;width:108px;height:108px;border:1px solid #8eeaff;border-radius:28px;transform:rotate(-9deg);color:#d4faff;background:linear-gradient(140deg,#146e99,#0a334b);box-shadow:inset 0 1px #fff5,0 0 48px #42caff42}
+.quantum-play-mark svg{width:49px;height:49px;transform:rotate(9deg);margin-left:-6px}
+.quantum-art-caption{position:relative;z-index:1}
+.quantum-art-caption>span{display:block;font-size:9px;letter-spacing:2px;color:#72d7f5;margin-bottom:8px}
+.quantum-art-caption strong{display:block;font:32px/1.13 var(--serif);letter-spacing:-.5px;color:#effaff}
+.quantum-art-wave{position:absolute;right:17px;bottom:20px;display:flex;align-items:center;gap:4px;height:100px;width:140px;opacity:.2;pointer-events:none;mask-image:linear-gradient(90deg,transparent,#000)}
+.quantum-art-wave i{flex:1;height:var(--bar);background:#6ce8ff;border-radius:4px}
+.quantum-replay-content{padding:35px 40px 32px;min-width:0}
+.quantum-replay-meta{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;color:#99bacf;font-size:9px;letter-spacing:1.2px}
+.quantum-replay-meta>span:last-child>span{margin:0 5px;color:#608499}
+.quantum-watch-badge{display:inline-flex;gap:8px;align-items:center;border:1px solid #78d87555;border-radius:20px;padding:6px 11px;color:#a9f497;background:#5caf5b12;font-size:9px;font-weight:650;letter-spacing:1.5px}
+.quantum-watch-badge>span{font-size:8px}
+.quantum-replay-content h3{font-size:clamp(23px,2.3vw,32px);letter-spacing:-.7px;line-height:1.2;margin:23px 0 13px;font-weight:600;color:#f0f7ff}
+.quantum-replay-speaker{font-size:13px;color:#9bb9ce}
+.quantum-replay-speaker strong{font-weight:600;color:#d3e5f4}
+.quantum-replay-priority{font-size:12px;color:#b4e7ba;display:flex;align-items:baseline;gap:9px;margin:18px 0 21px;line-height:1.6}
+.quantum-replay-priority>span{color:#a8e862}
+.quantum-passcode-row{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:15px 17px;background:#030f1d90;border:1px solid #2c5065;border-radius:10px}
+.quantum-passcode-label{display:block;font-size:8px;letter-spacing:1.8px;color:#8faec4;margin-bottom:2px}
+.quantum-passcode-row code{font:19px/1.5 Consolas,monospace;color:#d0f2ff;letter-spacing:.4px;user-select:all}
+.quantum-copy-passcode{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:9px 11px;min-height:42px;min-width:138px;border:1px solid #38667e;border-radius:7px;background:#102a3b;color:#bce8f7;font-size:11px;line-height:1.3}
+.quantum-copy-passcode[hidden]{display:none}
+.quantum-copy-passcode:hover{background:#173a50;border-color:#69c9e9}
+.quantum-copy-passcode svg{width:16px;height:16px;flex-shrink:0}
+.quantum-copy-status{font-size:11px;line-height:1.5;min-height:20px;margin:5px 2px 6px;color:#b5efba}
+.quantum-replay-cta{background:linear-gradient(115deg,#9aedff,#51badf);border:1px solid #a4efff;color:#042338;font-size:13px;padding:13px 23px;box-shadow:0 5px 25px #39bbee17;gap:31px}
+.quantum-replay-cta:hover{box-shadow:0 5px 30px #39bbee44}
+.quantum-replay-note{display:block;margin-top:9px;font-size:10px;color:#8eacbf}
+.quantum-training-resources{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:22px}
+.quantum-training-card{display:flex;flex-direction:column;min-width:0;padding:25px 26px 22px;border:1px solid #2a4c63;border-radius:14px;background:linear-gradient(140deg,#0d2539,#071626);transition:border-color .2s,transform .2s,box-shadow .2s}
+.quantum-training-card:hover{transform:translateY(-4px);border-color:#60bdd7;box-shadow:0 12px 30px #0003}
+.quantum-training-card-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:23px}
+.quantum-training-icon{display:grid;place-items:center;width:43px;height:43px;border:1px solid #469fc866;border-radius:12px;color:#87ddff;background:#20709b22}
+.quantum-training-icon svg{width:23px;height:23px}
+.quantum-training-card:nth-child(2) .quantum-training-icon{color:#a7e780;border-color:#86be6255;background:#69aa5620}
+.quantum-training-card:nth-child(3) .quantum-training-icon{color:#f3d190;border-color:#e9c16755;background:#c99e3620}
+.quantum-training-number{font:italic 24px var(--serif);color:#597d98}
+.quantum-training-label{font-size:8px;letter-spacing:1.3px;color:#9dbed2;margin-bottom:9px}
+.quantum-training-card h3{font:26px/1.15 var(--serif);letter-spacing:-.3px;color:#e6f4ff;margin:0 0 12px;max-width:270px}
+.quantum-training-description{font-size:12px;color:#9bb4c9;line-height:1.8;margin:0 0 23px}
+.quantum-training-card-link{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-top:auto;border-top:1px solid #244459;padding-top:15px;color:#acdff4;font-size:11px;font-weight:600}
+.quantum-training-card-link>span{font-size:21px;font-weight:400;line-height:1}
+.quantum-hero-training{margin-top:17px;display:inline-flex;align-items:center;gap:16px;font-size:12px;color:#9adef3;min-height:44px}
+.quantum-hero-training:hover{color:#dcf7ff}
+@media(max-width:1000px){.quantum-replay{grid-template-columns:.65fr 1fr}.quantum-replay-content{padding:29px}.quantum-replay-art{padding:28px 24px}.quantum-art-caption strong{font-size:28px}.quantum-training-card{padding:23px 20px}.quantum-training-card h3{font-size:24px}}
+@media(max-width:760px){.quantum-training{margin-top:45px}.quantum-replay{grid-template-columns:1fr}.quantum-replay-art{min-height:210px;display:grid;grid-template-columns:1fr 150px;gap:22px;padding:26px 28px;border-right:0;border-bottom:1px solid #2d5b77}.quantum-replay-art-label{grid-column:1/-1;font-size:8px}.quantum-play-orbit{grid-column:2;grid-row:2;width:100px;height:100px;margin:0;justify-self:center;box-shadow:0 0 0 12px #269dd811,0 0 0 25px #269dd807}.quantum-play-mark{width:69px;height:69px;border-radius:19px}.quantum-play-mark svg{width:35px;height:35px}.quantum-art-caption{grid-column:1;grid-row:2;align-self:center}.quantum-art-caption strong{font-size:25px}.quantum-art-wave{display:none}.quantum-replay-content{padding:29px}.quantum-replay-content h3{font-size:28px}.quantum-training-resources{grid-template-columns:1fr;gap:14px}.quantum-training-card{padding:22px 25px}.quantum-training-card-top{margin-bottom:16px}.quantum-training-card h3{max-width:none}.quantum-training-description{margin-bottom:18px}.quantum-hero-training{margin-top:9px}}
+@media(max-width:420px){.quantum-replay-art{grid-template-columns:1fr 95px;padding:24px;gap:22px 10px}.quantum-art-caption strong{font-size:23px}.quantum-play-orbit{width:84px;height:84px}.quantum-play-mark{width:60px;height:60px}.quantum-replay-content{padding:24px 20px}.quantum-replay-meta{gap:10px;font-size:8px}.quantum-watch-badge{font-size:8px}.quantum-replay-content h3{font-size:24px}.quantum-replay-priority{font-size:11px}.quantum-passcode-row{padding:13px 11px;gap:9px}.quantum-copy-passcode{min-width:0;padding:9px;font-size:10px;gap:6px}.quantum-copy-passcode svg{width:14px;height:14px}.quantum-passcode-row code{font-size:18px}.quantum-replay-cta{width:100%}.quantum-replay-note{text-align:center}}
+@media(prefers-reduced-motion:reduce){.quantum-training-card{transition:none}.quantum-training-card:hover{transform:none}}

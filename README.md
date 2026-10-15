@@ -11,7 +11,7 @@ GitHub Pages serves **main / (root)**. The `CNAME` file sets `trumark.health`; `
 ## Pages
 
 - `index.html`: Connected Care and appointments (code `Dreams1`).
-- `quantum.html`: Quantum Health Benefits.
+- `quantum.html`: Quantum Health Benefits, the featured training replay, two Dreams courses, testimonials, and brochures.
 - `lifex.html`: LifeX.
 - `crc-benefits.html`: CRC Benefits.
 - `dreams-insurance.html`: Dreams Insurance Solutions and Vantage.
@@ -29,6 +29,8 @@ python -m http.server 8819 --bind 127.0.0.1
 ```
 
 Open `http://127.0.0.1:8819/` for a local preview. `node build-products.mjs` regenerates the four product pages and shared navigation/footer from the source templates and `product-resources.json`. Edit `site-footer.mjs` for shared footer content, and `ecosystem-footer.css` for its styling. The Connected Care page itself is maintained in `index.html`.
+
+Quantum training content and destination links live in `quantum-training.mjs`. Its scoped styles and passcode-copy interaction are in `quantum-training.css` and `quantum-training.js`. After changing the training content, run `node build-products.mjs` to regenerate `quantum.html` before publishing.
 
 ## Documents
 
