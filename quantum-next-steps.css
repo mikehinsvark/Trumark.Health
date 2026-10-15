@@ -1,0 +1,39 @@
+.quantum-next-steps{margin-bottom:90px;scroll-margin-top:25px}
+.quantum-calculator-banner{position:relative;display:flex;align-items:center;gap:27px;padding:34px 38px;margin-bottom:24px;border:1px solid #81c95266;border-radius:18px;background:radial-gradient(ellipse at 3% 100%,#6bc53d24,transparent 55%),linear-gradient(110deg,#102b2b,#061724);box-shadow:inset 0 1px #aeed8720,0 12px 40px #0002}
+.quantum-calculator-symbol{flex-shrink:0;display:grid;place-items:center;width:80px;height:80px;border:1px solid #98e65c66;border-radius:21px;color:#b0ef72;background:#8edb4710;box-shadow:0 0 34px #89e83714}
+.quantum-calculator-symbol svg{width:50px;height:50px}
+.quantum-calculator-copy{flex:1;min-width:0}
+.quantum-calculator-copy .eyebrow{font-size:9px;color:#b4e78e;margin-bottom:12px}
+.quantum-calculator-copy h2{font-size:32px;letter-spacing:-.5px;line-height:1.15}
+.quantum-calculator-copy h2 em{color:#b8ed8e}
+.quantum-calculator-copy>p:last-child{font-size:12px;margin-top:13px;color:#a8c0c8}
+.quantum-calculator-button{flex-shrink:0;color:#102410;border:1px solid #cef4a1;background:linear-gradient(120deg,#d2f9a6,#8fda4f);box-shadow:0 0 26px #a1df4820;padding:15px 22px;font-size:12px}
+.quantum-calculator-button:hover{box-shadow:0 0 32px #a1df4840}
+.quantum-client-panel{display:grid;grid-template-columns:1fr 1.1fr;gap:45px;padding:42px;border:1px solid #356778;border-radius:18px;background:radial-gradient(ellipse at 12% 0,#18606b33,transparent 60%),linear-gradient(120deg,#092638,#071827)}
+.quantum-client-intro{align-self:center}
+.quantum-client-intro .eyebrow,.quantum-personalizer .eyebrow{color:#79dce9;font-size:9px}
+.quantum-client-intro h2{font-size:38px;letter-spacing:-.8px;margin:18px 0}
+.quantum-client-intro>p:not(.eyebrow){font-size:13px;line-height:1.9;max-width:430px;margin-bottom:26px}
+.quantum-personalizer{border-left:1px solid #2a4a5b;padding-left:40px;min-width:0}
+.quantum-personalizer h3{font-size:20px;margin:12px 0 22px;color:#e6f4ff}
+.quantum-personalizer label{display:block;font-size:11px;color:#b4cddd;margin-bottom:8px}
+.quantum-agent-input-row{display:flex;gap:10px}
+.quantum-agent-input-row input{min-width:0;width:100%;border:1px solid #345b71;border-radius:8px;background:#030f1e;padding:13px 15px;color:#eefaff;font:18px/1.3 Consolas,monospace;letter-spacing:.5px;min-height:49px}
+.quantum-agent-input-row input::placeholder{color:#7e98ac}
+.quantum-agent-input-row input[aria-invalid=true]{border-color:#f5ac83}
+.quantum-save-id{flex-shrink:0;background:linear-gradient(110deg,#59e7df,#2cd2c9);border:1px solid #77ece3;color:#03242b;padding:13px 20px;font-size:12px}
+#quantum-agent-help{font-size:10px;line-height:1.8;margin:10px 0 0;color:#94b4c9}
+.quantum-agent-status{font-size:11px;line-height:1.7;margin:14px 0 18px;color:#b5e4c7;min-height:19px}
+.quantum-agent-status.is-error{color:#ffd2b8}
+.quantum-personalizer .quantum-url-label{font-size:9px;text-transform:uppercase;letter-spacing:1.2px;color:#91b2c5}
+.quantum-personal-url{width:100%;min-width:0;background:#030f1e;border:1px solid #2e5265;border-radius:7px;padding:12px 10px;color:#c6edfa;font:12px/1.5 Consolas,monospace;min-height:44px}
+.quantum-link-actions{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-top:13px;flex-wrap:wrap}
+.quantum-copy-link{display:inline-flex;align-items:center;gap:8px;padding:10px 12px;min-height:42px;border:1px solid #395e73;border-radius:7px;background:#0b293c;font-size:11px;color:#c0e6f2}
+.quantum-copy-link svg{width:16px;height:16px}
+.quantum-copy-link:hover{border-color:#78d6ec;color:#e1faff}
+.quantum-clear-id{background:none;color:#9ebbd0;font-size:10px;min-height:42px;padding:8px 0;text-decoration:underline;text-underline-offset:4px}
+.quantum-clear-id:hover{color:#d5efff}
+.quantum-next-steps [hidden]{display:none}
+@media(max-width:1000px){.quantum-calculator-banner{flex-wrap:wrap;padding:28px;gap:24px}.quantum-calculator-copy h2{font-size:29px}.quantum-calculator-symbol{width:64px;height:64px}.quantum-calculator-symbol svg{width:40px;height:40px}.quantum-client-panel{gap:28px;padding:30px}.quantum-personalizer{padding-left:28px}.quantum-client-intro h2{font-size:33px}.quantum-agent-input-row{flex-wrap:wrap}.quantum-agent-input-row input{flex:1;min-width:115px}}
+@media(max-width:760px){.quantum-next-steps{margin-bottom:60px}.quantum-calculator-banner{gap:19px;padding:26px}.quantum-calculator-copy{flex-basis:calc(100% - 85px)}.quantum-calculator-copy h2{font-size:27px}.quantum-calculator-copy h2 br{display:none}.quantum-calculator-button{width:100%}.quantum-client-panel{grid-template-columns:1fr;padding:28px 25px;gap:30px}.quantum-client-intro h2{font-size:34px}.quantum-personalizer{padding:28px 0 0;border-left:0;border-top:1px solid #2a4a5b}.quantum-client-intro .button{width:100%}.quantum-agent-input-row{flex-wrap:nowrap}.quantum-save-id{padding-inline:16px}}
+@media(max-width:420px){.quantum-calculator-banner{padding:24px 22px;gap:17px}.quantum-calculator-symbol{width:48px;height:48px;border-radius:14px}.quantum-calculator-symbol svg{width:32px;height:32px}.quantum-calculator-copy{flex-basis:calc(100% - 70px)}.quantum-calculator-copy h2{font-size:25px}.quantum-calculator-copy .eyebrow{font-size:8px;letter-spacing:1.3px}.quantum-client-panel{padding:26px 21px}.quantum-client-intro h2{font-size:31px}.quantum-personalizer h3{font-size:19px}.quantum-personal-url{font-size:11px}.quantum-agent-input-row input{font-size:16px}.quantum-save-id{padding-inline:14px}}

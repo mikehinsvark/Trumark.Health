@@ -32,6 +32,8 @@ Open `http://127.0.0.1:8819/` for a local preview. `node build-products.mjs` reg
 
 Quantum training content and destination links live in `quantum-training.mjs`. Its scoped styles and passcode-copy interaction are in `quantum-training.css` and `quantum-training.js`. After changing the training content, run `node build-products.mjs` to regenerate `quantum.html` before publishing.
 
+The Quantum calculator link and personalized employer-page panel live in `quantum-next-steps.mjs`, with scoped CSS and browser behavior in the matching `.css` and `.js` files. The agent-ID box accepts `AA` plus four digits or four digits alone, uses `AA0233` by default, and stores a validated ID under `trumark-health-agent-id` in this site's browser storage. Saving, copying, and clearing only affect the Trumark Health link in this panel. They do not update the visitor's other sites or verify an ID's ownership.
+
 ## Documents
 
 The original PDFs and presentations preserve their supplied bytes. Three larger documents use `download-parts/`; `resource-files.mjs` reassembles and checks them against the sizes and SHA-256 hashes in `resource-downloads.json`. Preserve those files and the reader together. HTTPS is required for the browser integrity checks.
