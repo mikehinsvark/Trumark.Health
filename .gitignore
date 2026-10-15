@@ -1,0 +1,6 @@
+qa/
+node_modules/
+*.zip
+*.tar.gz
+.sites-local/
+.openai/

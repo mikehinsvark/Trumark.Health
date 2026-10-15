@@ -1,0 +1,100 @@
+{
+  "vantage-agent-opportunity": {
+    "title": "Vantage agent opportunity",
+    "filename": "vantage-agent-opportunity.ppsx",
+    "mime": "application/vnd.openxmlformats-officedocument.presentationml.slideshow",
+    "bytes": 24404768,
+    "sha256": "010bc5889fbe9f619db460cba2b00f596871e207c72d259416563e390d07af4f",
+    "format": "ppsx",
+    "parts": [
+      {
+        "path": "download-parts/vantage-agent-opportunity/01.bin",
+        "offset": 0,
+        "bytes": 8388608
+      },
+      {
+        "path": "download-parts/vantage-agent-opportunity/02.bin",
+        "offset": 8388608,
+        "bytes": 8388608
+      },
+      {
+        "path": "download-parts/vantage-agent-opportunity/03.bin",
+        "offset": 16777216,
+        "bytes": 7627552
+      }
+    ],
+    "cover": "assets/covers/vantage-agent-opportunity.jpg"
+  },
+  "vantage-format-system": {
+    "title": "Vantage Format System",
+    "filename": "vantage-format-system.pdf",
+    "mime": "application/pdf",
+    "bytes": 43151800,
+    "sha256": "f1aed5f1848bcf07926664a20052df2b2d2205bb84e4869c63efc9a4d0dd828a",
+    "format": "pdf",
+    "parts": [
+      {
+        "path": "download-parts/vantage-format-system/01.bin",
+        "offset": 0,
+        "bytes": 8388608
+      },
+      {
+        "path": "download-parts/vantage-format-system/02.bin",
+        "offset": 8388608,
+        "bytes": 8388608
+      },
+      {
+        "path": "download-parts/vantage-format-system/03.bin",
+        "offset": 16777216,
+        "bytes": 8388608
+      },
+      {
+        "path": "download-parts/vantage-format-system/04.bin",
+        "offset": 25165824,
+        "bytes": 8388608
+      },
+      {
+        "path": "download-parts/vantage-format-system/05.bin",
+        "offset": 33554432,
+        "bytes": 8388608
+      },
+      {
+        "path": "download-parts/vantage-format-system/06.bin",
+        "offset": 41943040,
+        "bytes": 1208760
+      }
+    ],
+    "cover": "assets/covers/vantage-format-system.jpg"
+  },
+  "dreams-client-presentation": {
+    "title": "Dreams client presentation",
+    "filename": "dreams-client-presentation.pptx",
+    "mime": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+    "bytes": 32576252,
+    "sha256": "7102ee18b16e9eb51838a8c3df0176dd91ed2784260b71e464bea77b1819cd47",
+    "format": "pptx",
+    "parts": [
+      {
+        "path": "download-parts/dreams-client-presentation/01.bin",
+        "offset": 0,
+        "bytes": 8388608
+      },
+      {
+        "path": "download-parts/dreams-client-presentation/02.bin",
+        "offset": 8388608,
+        "bytes": 8388608
+      },
+      {
+        "path": "download-parts/dreams-client-presentation/03.bin",
+        "offset": 16777216,
+        "bytes": 8388608
+      },
+      {
+        "path": "download-parts/dreams-client-presentation/04.bin",
+        "offset": 25165824,
+        "bytes": 7410428
+      }
+    ],
+    "cover": "assets/covers/dreams-client-presentation.jpg"
+  }
+}
