@@ -1,3 +1,6 @@
+import {initializePageNavigation} from './page-navigation.js';
+initializePageNavigation();
+
 const one = selector => document.querySelector(selector);
 const all = selector => [...document.querySelectorAll(selector)];
 const header = one('.site-header');

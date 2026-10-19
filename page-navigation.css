@@ -1,0 +1,15 @@
+.page-scroll-nav[hidden]{display:none}
+.page-scroll-nav{position:fixed;z-index:46;right:6px;top:calc(50% + 65px);transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:0;width:48px;padding:5px;border:1px solid #1b5261;border-radius:30px;background:#03141be8;backdrop-filter:blur(14px);box-shadow:0 12px 32px #0005}
+.page-scroll-nav>button{display:grid;place-items:center;flex-shrink:0;width:36px;height:36px;padding:0;border:1px solid #285461;border-radius:50%;background:#051923;color:#21dbc6;cursor:pointer;transition:color .2s,box-shadow .2s,border-color .2s}
+.page-scroll-nav>button svg{width:22px;height:22px}
+.page-scroll-nav>button:hover:not(:disabled){color:#acfff1;border-color:#32e3cb;box-shadow:0 0 20px #20dfc52f}
+.page-scroll-nav>button:disabled{opacity:.3;cursor:default}
+.page-scroll-dots{display:flex;flex-direction:column;align-items:center;padding-block:7px}
+.page-scroll-dot{position:relative;display:grid;place-items:center;width:34px;height:24px;border-radius:18px}
+.page-scroll-dot:before{content:"";width:7px;height:7px;border-radius:50%;background:#315157;transition:background .2s,box-shadow .2s,transform .2s}
+.page-scroll-dot[aria-current="location"]:before{background:#20dbc1;transform:scale(1.5);box-shadow:0 0 15px #20dbc167}
+.page-scroll-dot:hover:before{background:#86f5e5}
+.page-scroll-nav :focus-visible{outline:2px solid #8df8e8;outline-offset:2px}
+.page-scroll-label{position:absolute;right:calc(100% + 12px);top:50%;transform:translateY(-50%);width:max-content;max-width:250px;padding:10px 14px;border:1px solid #2b5c68;border-radius:9px;background:#061923f7;color:#c9eee8;font:500 11px/1.5 var(--sans);text-transform:none;letter-spacing:.2px;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .2s,visibility .2s;box-shadow:0 6px 24px #0005}
+.page-scroll-dot:hover .page-scroll-label,.page-scroll-dot:focus-visible .page-scroll-label{opacity:1;visibility:visible}
+@media(max-width:1100px),(max-height:650px){.page-scroll-nav{top:auto;bottom:calc(16px + env(safe-area-inset-bottom,0px));right:14px;transform:none;flex-direction:row;gap:7px;width:auto;padding:5px}.page-scroll-nav>button{width:42px;height:42px}.page-scroll-dots{display:none}}

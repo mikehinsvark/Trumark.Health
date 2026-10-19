@@ -147,5 +147,14 @@ reader=reader.replace('</body>',footer('reader')+'</body>');
 fs.writeFileSync('resource-viewer.html',reader);
 console.log('Built four product destinations and connected the five-page navigation.');
 
-// Keep public canonical URLs when regenerating the product pages.
-for(const [file,url] of [["index.html",""],["quantum.html","quantum.html"],["lifex.html","lifex.html"],["crc-benefits.html","crc-benefits.html"],["dreams-insurance.html","dreams-insurance.html"]]){let html=fs.readFileSync(file,"utf8");html=html.replace(/<link rel="canonical"[^>]*>/g,"");fs.writeFileSync(file,html.replace("</head>",`<link rel="canonical" href="https://trumark.health/${url}"></head>`));}
+const scrollNavigation='<nav class="page-scroll-nav" id="page-scroll-nav" aria-label="Page sections" hidden><button type="button" data-scroll="up" aria-label="Scroll to previous section" title="Previous section"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 15 6-6 6 6"/></svg></button><div class="page-scroll-dots"></div><button type="button" data-scroll="down" aria-label="Scroll to next section" title="Next section"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></nav>';
+
+// Keep public URLs and the shared section navigator when regenerating pages.
+for(const [file,url] of [["index.html",""],["quantum.html","quantum.html"],["lifex.html","lifex.html"],["crc-benefits.html","crc-benefits.html"],["dreams-insurance.html","dreams-insurance.html"]]){
+  let html=fs.readFileSync(file,"utf8");
+  html=html.replace(/<link rel="canonical"[^>]*>/g,"");
+  if(!html.includes('href="page-navigation.css"'))html=html.replace('</head>','<link rel="stylesheet" href="page-navigation.css"></head>');
+  html=html.replace(/<nav class="page-scroll-nav"[\s\S]*?<\/nav>/g,'');
+  html=html.replace('</body>',scrollNavigation+'</body>');
+  fs.writeFileSync(file,html.replace("</head>",`<link rel="canonical" href="https://trumark.health/${url}"></head>`));
+}
