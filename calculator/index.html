@@ -135,6 +135,12 @@ input[type=range]::-moz-range-thumb{width:24px;height:24px;border-radius:50%;bac
 .docs li{counter-increment:d;position:relative;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:14px 16px 14px 64px}
 .docs li::before{content:counter(d);position:absolute;left:16px;top:50%;transform:translateY(-50%);width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:linear-gradient(135deg,#0b55e0,#13c4f0);color:#fff;font:800 16px Montserrat,sans-serif}
 .docs b{display:block;font-size:16px}.docs span{font-size:14px;color:var(--mute)}
+.btn.book{background:linear-gradient(90deg,#0b55e0,#13a8ec);color:#fff;min-height:56px;font-size:17px;padding:0 26px;box-shadow:0 12px 28px -12px #0b55e0cc;transition:transform .2s ease,box-shadow .2s ease}
+.btn.book:hover{transform:translateY(-2px);box-shadow:0 16px 32px -12px #0b55e0}
+.result .btn.book{width:100%;margin-bottom:12px}
+.cta{background:radial-gradient(900px 400px at 90% 0%,#0b55e066,transparent 60%),linear-gradient(160deg,#0a1f4f,#071636);color:#fff}
+.ctag{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px 40px}
+.ctag>div{flex:1 1 420px}.cta h2{color:#fff}.cta p{color:#c6d5f2;max-width:60ch;margin:0}
 .foot{font-size:13px;color:var(--mute);border-top:1px solid var(--line);padding-top:18px}
 @media(max-width:900px){.calc,.win,.vid,.intro,.vgrid,.kgrid{grid-template-columns:minmax(0,1fr)}.hv{max-width:560px;transform:none}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.eq i{display:none}.eq span{flex-basis:100%}.ph{display:none}.row{grid-template-columns:1fr 1fr}.row h3{grid-column:1/-1}.row strong{text-align:left}.row strong::before{content:attr(data-l);display:block;font:500 12px Inter,sans-serif;color:var(--mute)}.tot strong::before{color:#b9cdf2}.grid{grid-template-columns:minmax(0,1fr)}.trio b{font-size:16px}.trio div{padding:10px}}
@@ -190,8 +196,9 @@ input[type=range]::-moz-range-thumb{width:24px;height:24px;border-radius:50%;bac
     <div class="split" aria-hidden="true"><i class="ft" id="barFt"></i><i class="pt" id="barPt"></i></div>
     <div class="key"><span><i style="background:#0b55e0"></i>Full-time: <b id="ftSave">$0</b></span><span><i style="background:#13c4f0"></i>Part-time: <b id="ptSave">$0</b></span></div>
     <div class="emp"><b>$0</b><span>out-of-pocket for employees, plus <strong>+$1,000–$1,200</strong> take-home per full-time and <strong>+$600–$750</strong> per part-time employee each year</span></div>
+    <a class="btn book" href="https://trumarkhealth.com/?refid=AA0233#row-GYwaPeSRt5" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>&nbsp;Book a call to learn more</a>
     <div class="acts">
-     <button class="btn pri" type="button" id="copy">Copy this estimate</button>
+     <button class="btn sec" type="button" id="copy">Copy this estimate</button>
      <a class="btn sec" href="#video">Watch the 85-second video</a>
      <a class="btn sec kitdl" href="../brochures/quantum-overview.pdf"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>&nbsp;Brochure kit</a>
     </div>
@@ -286,7 +293,17 @@ input[type=range]::-moz-range-thumb{width:24px;height:24px;border-radius:50%;bac
  </div>
 </section>
 
-<section class="band" style="padding-top:0">
+<section class="band cta">
+ <div class="wrap ctag">
+  <div>
+   <h2>Ready to see the real numbers for your business?</h2>
+   <p>Book a call with a Trumark Health benefits advisor for a complimentary review of your savings, your employees' take-home pay and the benefits your team would receive.</p>
+  </div>
+  <a class="btn book" href="https://trumarkhealth.com/?refid=AA0233#row-GYwaPeSRt5" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>&nbsp;Book a call to learn more</a>
+ </div>
+</section>
+
+<section class="band" style="padding-top:clamp(20px,3vw,40px)">
  <div class="wrap foot">
   <p><strong>Estimates only; not guaranteed.</strong> Savings and take-home pay vary by eligibility, participation, wages, plan terms, and tax treatment. Benefit amounts shown are plan maximums and may vary by plan design. Talk with your Trumark Health benefits advisor for a complimentary review of your business.</p>
  </div>
