@@ -16,6 +16,7 @@ GitHub Pages serves **main / (root)**. The `CNAME` file sets `trumark.health`; `
 - `crc-benefits.html`: CRC Benefits.
 - `dreams-insurance.html`: Dreams Insurance Solutions and Vantage.
 - `resource-viewer.html`: Original document preview/download reader.
+- `calculator/index.html`: Trumark Health Section 125 savings calculator at `/calculator` — employer payroll tax savings, employee take-home pay, business valuation increase, the 85-second video, and a brochure-kit download that zips four PDFs from `brochures/` in the browser.
 
 No framework installation, database, analytics, or build step is required. All page styling, scripts, images, brochure covers, and document files are included. The website links to the appointment providers; it does not collect contracting or client information.
 
